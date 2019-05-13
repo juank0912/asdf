@@ -1,4 +1,4 @@
-// Bucle optimizado para animaciones web.
+﻿// Bucle optimizado para animaciones web.
 (function() {
   var lastTime = 0;
   var vendors = ['ms', 'moz', 'webkit', 'o'];
@@ -75,7 +75,7 @@ function Character() {
 
   if (keyboard.getPressed() == keyboard.kLeft()) {
    this.image.src = "Imagenes/gokuleft.png";
-   if (this.xPos > 0) this.xPos -= 10;
+   if (this.xPos > 0) this.xPos -= 50;
   } else if (keyboard.getPressed() == keyboard.kRight()) {
    this.image.src = "Imagenes/gokuright.png";
    if (this.xPos < 740) this.xPos += 10;
